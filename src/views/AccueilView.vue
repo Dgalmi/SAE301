@@ -29,6 +29,47 @@
 
             </div>
           </div>
+
+                                <!-- Structure ajoutée en dessous du paragraphe -->
+                                <div class="flex mt-16 items-center justify-center">
+            <!-- Image à gauche -->
+            <img src="../assets/svg/lunettes_petit.svg" alt="Image Description" class="w-1/2 h-auto mr-6">
+
+            <!-- Contenu à droite de l'image -->
+            <div class="flex flex-col">
+              <h2 class="font-bold text-3xl mb-4">Minimalisme Épuré</h2>
+              <p class="text-gray-700 mb-4 leading-relaxed">
+                Pour ceux qui préfèrent la simplicité avec une touche d'élégance, ces lunettes offrent un design épuré sans fioritures inutiles. Leur forme douce et leur construction légère garantissent un confort maximal tout en étant un complément parfait à n'importe quelle tenue.
+              </p>
+              <Buttonpanier/>
+
+
+
+
+            </div>
+          </div>
+
+          
+                                <!-- Structure ajoutée en dessous du paragraphe -->
+                                <div class="flex mt-16 items-center justify-center">
+            <!-- Image à gauche -->
+            <img src="../assets/svg/lunettes_pont.svg" alt="Image Description" class="w-1/2 h-auto mr-6">
+
+            <!-- Contenu à droite de l'image -->
+            <div class="flex flex-col">
+              <h2 class="font-bold text-3xl mb-4">Fusion Rétro-Moderne</h2>
+              <p class="text-gray-700 mb-4 leading-relaxed">
+                Ces lunettes combinent la nostalgie des styles rétro avec une touche moderne, offrant le meilleur des deux mondes. Parfait pour ceux qui apprécient le charme d'antan tout en voulant rester à la pointe de la mode actuelle.
+              </p>
+              <Buttonpanier/>
+
+
+
+
+            </div>
+          </div>
+
+
       </div>
       <div class="mt-8 text-center">
     <h2 class="text-5xl font-bold mb-4 underline">Création récente</h2>
@@ -46,8 +87,8 @@
   <script>
   import Map from '../components/Map.vue';
 import Buttonpanier from '../components/buttonpanier.vue';
-import Buttonperso from '../components/buttonperso.vue';
-import buttonperso from '../components/buttonperso.vue';
+import Buttonperso from '../components/buttonperso.vue'
+
   export default {
     name: 'HomeComponent'
     // Vous pouvez ajouter des méthodes, des données, etc. ici si nécessaire.

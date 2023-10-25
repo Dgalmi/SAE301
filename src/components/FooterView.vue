@@ -32,5 +32,5 @@ export default {
 </script>
 
 <style scoped>
-/* Vous pouvez ajouter des styles CSS supplémentaires ici si nécessaire. */
+
 </style>

@@ -23,16 +23,6 @@ const router = createRouter({
 // to : où il veut aller
 // from : d'où il vient 
 // next : s'il peut y aller
-router.beforeEach( (to, from, next) =>{
-  if(to.name == "HomeView"){ // Si page d'accueil demandée, on autorise
-    next()
-  }else{  // Si une autre route est demandée, on vérifie si l'utilisateur est connecté        
-    if(pb.authStore.model != null){ // Utilisateur connecté => OK
-      next()
-    }else{ // Utilisateur non connecté, redirection sur la page d'acceuil
-      router.push({name:"HomeView"})
-    }
-  }
-})
 
-export default router
+
+export default router 

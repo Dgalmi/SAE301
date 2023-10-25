@@ -2,8 +2,8 @@
 migrate((db) => {
   const collection = new Collection({
     "id": "sd5ec019hvnsf4x",
-    "created": "2023-10-24 09:05:48.033Z",
-    "updated": "2023-10-24 09:05:48.033Z",
+    "created": "2023-10-25 11:47:33.940Z",
+    "updated": "2023-10-25 11:47:33.940Z",
     "name": "couleur",
     "type": "base",
     "system": false,

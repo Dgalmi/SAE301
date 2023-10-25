@@ -2,8 +2,8 @@
 migrate((db) => {
   const collection = new Collection({
     "id": "9ph50e9r0c87hwj",
-    "created": "2023-10-24 09:04:12.222Z",
-    "updated": "2023-10-24 09:04:12.222Z",
+    "created": "2023-10-25 11:47:33.940Z",
+    "updated": "2023-10-25 11:47:33.940Z",
     "name": "cadre",
     "type": "base",
     "system": false,
@@ -34,6 +34,38 @@ migrate((db) => {
           "min": null,
           "max": null,
           "pattern": ""
+        }
+      },
+      {
+        "system": false,
+        "id": "ugw9aakc",
+        "name": "cadre_mat",
+        "type": "relation",
+        "required": false,
+        "presentable": false,
+        "unique": false,
+        "options": {
+          "collectionId": "iu5o6172b4kmhcb",
+          "cascadeDelete": false,
+          "minSelect": null,
+          "maxSelect": null,
+          "displayFields": null
+        }
+      },
+      {
+        "system": false,
+        "id": "i60yogvk",
+        "name": "couleur_cadre",
+        "type": "relation",
+        "required": false,
+        "presentable": false,
+        "unique": false,
+        "options": {
+          "collectionId": "sd5ec019hvnsf4x",
+          "cascadeDelete": false,
+          "minSelect": null,
+          "maxSelect": null,
+          "displayFields": null
         }
       }
     ],

@@ -2,8 +2,8 @@
 migrate((db) => {
   const collection = new Collection({
     "id": "z0f9ejb8blf82ds",
-    "created": "2023-10-24 09:05:22.088Z",
-    "updated": "2023-10-24 09:05:22.088Z",
+    "created": "2023-10-25 11:47:33.940Z",
+    "updated": "2023-10-25 11:47:33.940Z",
     "name": "branche",
     "type": "base",
     "system": false,
@@ -20,6 +20,22 @@ migrate((db) => {
           "min": null,
           "max": null,
           "pattern": ""
+        }
+      },
+      {
+        "system": false,
+        "id": "mhrkwynl",
+        "name": "couleur_branche",
+        "type": "relation",
+        "required": false,
+        "presentable": false,
+        "unique": false,
+        "options": {
+          "collectionId": "sd5ec019hvnsf4x",
+          "cascadeDelete": false,
+          "minSelect": null,
+          "maxSelect": null,
+          "displayFields": null
         }
       }
     ],

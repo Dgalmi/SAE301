@@ -9,7 +9,7 @@
           <div class="nav-links flex space-x-4">
             <RouterLink to="/" class="nav-link text-gray-700 hover:text-black">Accueil</RouterLink>
             <RouterLink to="/personnalisation" class="nav-link text-gray-700 hover:text-black">Personnaliser</RouterLink>
-            <RouterLink to="/inscription" class="nav-link text-gray-700 hover:text-black">Profil</RouterLink>
+            <RouterLink to="/connexion" class="nav-link text-gray-700 hover:text-black">Connexion</RouterLink>
             <!-- ... Ajoutez d'autres liens au besoin -->
           </div>
       
